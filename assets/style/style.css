@@ -1,0 +1,61 @@
+.head {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+
+.main{
+    display: flex;    
+    width: 100%;
+    min-height: auto;
+    justify-content: center;
+    flex-direction: row;
+}
+.parent1 {
+    display: flex;
+    background-color: pink;
+    min-height: auto;
+    flex-grow: 3;
+    flex-direction: column;
+}
+.h21{
+    display: flex;
+    justify-content: center;
+}
+.child{
+    display: flex;
+    justify-content: space-between;
+}
+.h22{
+    display: flex;
+    background-color: bisque;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    margin-inline: 20px;
+}
+.h3{
+    display: flex;
+    background-color: bisque;
+    padding: 20px;
+    justify-content: center;
+    margin-inline: 20px;
+}
+.parent2 {
+    display: flex;
+    background-color: greenyellow;
+    min-height: 200px;
+    flex-grow: 1;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    background-color: aqua;
+    /* одинаковое простарнство между блоками */
+    justify-content: space-around;    
+}
+.hh{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+}
