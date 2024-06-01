@@ -1,6 +1,6 @@
 .head {
     display: flex;
-    background-color: aqua;
+    background-color: rgb(189, 194, 194);
     justify-content: center;
 }
 
@@ -13,7 +13,7 @@
 }
 .parent1 {
     display: flex;
-    background-color: pink;
+    background-color: rgb(246, 253, 202);
     min-height: auto;
     flex-grow: 3;
     flex-direction: column;
@@ -28,7 +28,7 @@
 }
 .h22{
     display: flex;
-    background-color: bisque;
+    background-color: rgb(244, 233, 162);
     padding: 20px;
     width: 100%;
     justify-content: center;
@@ -36,21 +36,21 @@
 }
 .h3{
     display: flex;
-    background-color: bisque;
+    background-color: rgb(244, 233, 162);
     padding: 20px;
     justify-content: center;
     margin-inline: 20px;
 }
 .parent2 {
     display: flex;
-    background-color: greenyellow;
+    background-color: rgb(209, 250, 147);
     min-height: 200px;
     flex-grow: 1;
     justify-content: center;
 }
 .footer{
     display: flex;
-    background-color: aqua;
+    background-color: rgb(189, 194, 194);
     /* одинаковое простарнство между блоками */
     justify-content: space-around;    
 }
